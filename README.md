@@ -1,6 +1,6 @@
 ## VIDropDownMenu
 
-VIDropDownMenu is an example of a basic, drop-down menu implementation.
+VIDropDownMenu is an example of a basic drop-down menu implementation.
 
 ## Usage
 
