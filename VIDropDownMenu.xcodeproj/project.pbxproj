@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9E920E81552D41900A6EC5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E920E71552D41900A6EC5A /* UIKit.framework */; };
+		C9E920EA1552D41900A6EC5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E920E91552D41900A6EC5A /* Foundation.framework */; };
+		C9E920EC1552D41900A6EC5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E920EB1552D41900A6EC5A /* CoreGraphics.framework */; };
+		C9E920F21552D41A00A6EC5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9E920F01552D41A00A6EC5A /* InfoPlist.strings */; };
+		C9E920F41552D41A00A6EC5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E920F31552D41A00A6EC5A /* main.m */; };
+		C9E920F81552D41A00A6EC5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E920F71552D41A00A6EC5A /* AppDelegate.m */; };
+		C9E920FB1552D41A00A6EC5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E920FA1552D41A00A6EC5A /* ViewController.m */; };
+		C9E920FE1552D41A00A6EC5A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9E920FC1552D41A00A6EC5A /* ViewController.xib */; };
+		C9E921061552D41A00A6EC5A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E921051552D41A00A6EC5A /* SenTestingKit.framework */; };
+		C9E921071552D41A00A6EC5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E920E71552D41900A6EC5A /* UIKit.framework */; };
+		C9E921081552D41A00A6EC5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E920E91552D41900A6EC5A /* Foundation.framework */; };
+		C9E921101552D41A00A6EC5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9E9210E1552D41A00A6EC5A /* InfoPlist.strings */; };
+		C9E921131552D41A00A6EC5A /* VIDropDownMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E921121552D41A00A6EC5A /* VIDropDownMenuTests.m */; };
+		C9E9211D1552D5A400A6EC5A /* arrow_down.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E9211C1552D5A400A6EC5A /* arrow_down.png */; };
+		C9E921201552EE3500A6EC5A /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E9211F1552EE3400A6EC5A /* example.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9E921091552D41A00A6EC5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9E920DA1552D41900A6EC5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9E920E21552D41900A6EC5A;
+			remoteInfo = VIDropDownMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9E920E31552D41900A6EC5A /* VIDropDownMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIDropDownMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E920E71552D41900A6EC5A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9E920E91552D41900A6EC5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9E920EB1552D41900A6EC5A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9E920EF1552D41A00A6EC5A /* VIDropDownMenu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VIDropDownMenu-Info.plist"; sourceTree = "<group>"; };
+		C9E920F11552D41A00A6EC5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9E920F31552D41A00A6EC5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9E920F51552D41A00A6EC5A /* VIDropDownMenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VIDropDownMenu-Prefix.pch"; sourceTree = "<group>"; };
+		C9E920F61552D41A00A6EC5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9E920F71552D41A00A6EC5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9E920F91552D41A00A6EC5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C9E920FA1552D41A00A6EC5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C9E920FD1552D41A00A6EC5A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C9E921041552D41A00A6EC5A /* VIDropDownMenuTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIDropDownMenuTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9E921051552D41A00A6EC5A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C9E9210D1552D41A00A6EC5A /* VIDropDownMenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VIDropDownMenuTests-Info.plist"; sourceTree = "<group>"; };
+		C9E9210F1552D41A00A6EC5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9E921111552D41A00A6EC5A /* VIDropDownMenuTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIDropDownMenuTests.h; sourceTree = "<group>"; };
+		C9E921121552D41A00A6EC5A /* VIDropDownMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIDropDownMenuTests.m; sourceTree = "<group>"; };
+		C9E9211C1552D5A400A6EC5A /* arrow_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_down.png; sourceTree = "<group>"; };
+		C9E9211F1552EE3400A6EC5A /* example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9E920E01552D41900A6EC5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E920E81552D41900A6EC5A /* UIKit.framework in Frameworks */,
+				C9E920EA1552D41900A6EC5A /* Foundation.framework in Frameworks */,
+				C9E920EC1552D41900A6EC5A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E921001552D41A00A6EC5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E921061552D41A00A6EC5A /* SenTestingKit.framework in Frameworks */,
+				C9E921071552D41A00A6EC5A /* UIKit.framework in Frameworks */,
+				C9E921081552D41A00A6EC5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9E920D81552D41900A6EC5A = {
+			isa = PBXGroup;
+			children = (
+				C9E920ED1552D41A00A6EC5A /* VIDropDownMenu */,
+				C9E9210B1552D41A00A6EC5A /* VIDropDownMenuTests */,
+				C9E920E61552D41900A6EC5A /* Frameworks */,
+				C9E920E41552D41900A6EC5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9E920E41552D41900A6EC5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9E920E31552D41900A6EC5A /* VIDropDownMenu.app */,
+				C9E921041552D41A00A6EC5A /* VIDropDownMenuTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9E920E61552D41900A6EC5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9E920E71552D41900A6EC5A /* UIKit.framework */,
+				C9E920E91552D41900A6EC5A /* Foundation.framework */,
+				C9E920EB1552D41900A6EC5A /* CoreGraphics.framework */,
+				C9E921051552D41A00A6EC5A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9E920ED1552D41A00A6EC5A /* VIDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C9E920F61552D41A00A6EC5A /* AppDelegate.h */,
+				C9E920F71552D41A00A6EC5A /* AppDelegate.m */,
+				C9E920F91552D41A00A6EC5A /* ViewController.h */,
+				C9E920FA1552D41A00A6EC5A /* ViewController.m */,
+				C9E920FC1552D41A00A6EC5A /* ViewController.xib */,
+				C9E9211E1552D5A800A6EC5A /* Resources */,
+				C9E920EE1552D41A00A6EC5A /* Supporting Files */,
+			);
+			path = VIDropDownMenu;
+			sourceTree = "<group>";
+		};
+		C9E920EE1552D41A00A6EC5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9E920EF1552D41A00A6EC5A /* VIDropDownMenu-Info.plist */,
+				C9E920F01552D41A00A6EC5A /* InfoPlist.strings */,
+				C9E920F31552D41A00A6EC5A /* main.m */,
+				C9E920F51552D41A00A6EC5A /* VIDropDownMenu-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9E9210B1552D41A00A6EC5A /* VIDropDownMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9E921111552D41A00A6EC5A /* VIDropDownMenuTests.h */,
+				C9E921121552D41A00A6EC5A /* VIDropDownMenuTests.m */,
+				C9E9210C1552D41A00A6EC5A /* Supporting Files */,
+			);
+			path = VIDropDownMenuTests;
+			sourceTree = "<group>";
+		};
+		C9E9210C1552D41A00A6EC5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9E9210D1552D41A00A6EC5A /* VIDropDownMenuTests-Info.plist */,
+				C9E9210E1552D41A00A6EC5A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9E9211E1552D5A800A6EC5A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9E9211F1552EE3400A6EC5A /* example.png */,
+				C9E9211C1552D5A400A6EC5A /* arrow_down.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9E920E21552D41900A6EC5A /* VIDropDownMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9E921161552D41A00A6EC5A /* Build configuration list for PBXNativeTarget "VIDropDownMenu" */;
+			buildPhases = (
+				C9E920DF1552D41900A6EC5A /* Sources */,
+				C9E920E01552D41900A6EC5A /* Frameworks */,
+				C9E920E11552D41900A6EC5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VIDropDownMenu;
+			productName = VIDropDownMenu;
+			productReference = C9E920E31552D41900A6EC5A /* VIDropDownMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9E921031552D41A00A6EC5A /* VIDropDownMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9E921191552D41A00A6EC5A /* Build configuration list for PBXNativeTarget "VIDropDownMenuTests" */;
+			buildPhases = (
+				C9E920FF1552D41A00A6EC5A /* Sources */,
+				C9E921001552D41A00A6EC5A /* Frameworks */,
+				C9E921011552D41A00A6EC5A /* Resources */,
+				C9E921021552D41A00A6EC5A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9E9210A1552D41A00A6EC5A /* PBXTargetDependency */,
+			);
+			name = VIDropDownMenuTests;
+			productName = VIDropDownMenuTests;
+			productReference = C9E921041552D41A00A6EC5A /* VIDropDownMenuTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9E920DA1552D41900A6EC5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C9E920DD1552D41900A6EC5A /* Build configuration list for PBXProject "VIDropDownMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9E920D81552D41900A6EC5A;
+			productRefGroup = C9E920E41552D41900A6EC5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9E920E21552D41900A6EC5A /* VIDropDownMenu */,
+				C9E921031552D41A00A6EC5A /* VIDropDownMenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9E920E11552D41900A6EC5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E920F21552D41A00A6EC5A /* InfoPlist.strings in Resources */,
+				C9E920FE1552D41A00A6EC5A /* ViewController.xib in Resources */,
+				C9E9211D1552D5A400A6EC5A /* arrow_down.png in Resources */,
+				C9E921201552EE3500A6EC5A /* example.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E921011552D41A00A6EC5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E921101552D41A00A6EC5A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9E921021552D41A00A6EC5A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9E920DF1552D41900A6EC5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E920F41552D41A00A6EC5A /* main.m in Sources */,
+				C9E920F81552D41A00A6EC5A /* AppDelegate.m in Sources */,
+				C9E920FB1552D41A00A6EC5A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E920FF1552D41A00A6EC5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E921131552D41A00A6EC5A /* VIDropDownMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9E9210A1552D41A00A6EC5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9E920E21552D41900A6EC5A /* VIDropDownMenu */;
+			targetProxy = C9E921091552D41A00A6EC5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9E920F01552D41A00A6EC5A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9E920F11552D41A00A6EC5A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9E920FC1552D41A00A6EC5A /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9E920FD1552D41A00A6EC5A /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		C9E9210E1552D41A00A6EC5A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9E9210F1552D41A00A6EC5A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9E921141552D41A00A6EC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9E921151552D41A00A6EC5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9E921171552D41A00A6EC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIDropDownMenu/VIDropDownMenu-Prefix.pch";
+				INFOPLIST_FILE = "VIDropDownMenu/VIDropDownMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9E921181552D41A00A6EC5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIDropDownMenu/VIDropDownMenu-Prefix.pch";
+				INFOPLIST_FILE = "VIDropDownMenu/VIDropDownMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C9E9211A1552D41A00A6EC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VIDropDownMenu.app/VIDropDownMenu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIDropDownMenu/VIDropDownMenu-Prefix.pch";
+				INFOPLIST_FILE = "VIDropDownMenuTests/VIDropDownMenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C9E9211B1552D41A00A6EC5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VIDropDownMenu.app/VIDropDownMenu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIDropDownMenu/VIDropDownMenu-Prefix.pch";
+				INFOPLIST_FILE = "VIDropDownMenuTests/VIDropDownMenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9E920DD1552D41900A6EC5A /* Build configuration list for PBXProject "VIDropDownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E921141552D41A00A6EC5A /* Debug */,
+				C9E921151552D41A00A6EC5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9E921161552D41A00A6EC5A /* Build configuration list for PBXNativeTarget "VIDropDownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E921171552D41A00A6EC5A /* Debug */,
+				C9E921181552D41A00A6EC5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9E921191552D41A00A6EC5A /* Build configuration list for PBXNativeTarget "VIDropDownMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9E9211A1552D41A00A6EC5A /* Debug */,
+				C9E9211B1552D41A00A6EC5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9E920DA1552D41900A6EC5A /* Project object */;
+}
