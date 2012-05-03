@@ -1,3 +1,7 @@
+# OS X
+.DS_Store
+._*
+
 # Xcode
 build/*
 *.pbxuser
@@ -13,3 +17,10 @@ build/*
 xcuserdata
 profile
 *.moved-aside
+
+# SVN & CVS
+.svn
+CVS
+
+# AppCode
+.idea
