@@ -115,30 +115,19 @@
             height = heightAllowed;
         }
         
-        [self.menuTableView setFrame:CGRectMake(xCoord, yCoord, width, self.menuTextField.frame.size.height)];
-        [self.menuTableView setAlpha:0.0f];
+        [self.menuTableView setFrame:CGRectMake(xCoord, yCoord, width, height)];
         [self.menuTableView setHidden:NO];
-        [UIView animateWithDuration:0.2f
-                         animations:^{
-                             [self.menuTableView setAlpha:1.0f];
-                             [self.menuTableView setFrame:CGRectMake(xCoord, yCoord, width, height)];
-                             [[self.menuTableView layer] setMasksToBounds:NO];
-                             [[self.menuTableView layer] setShadowOffset:CGSizeMake(3.0f, 3.0f)];
-                             [[self.menuTableView layer] setShadowRadius:3.0f];
-                             [[self.menuTableView layer] setShadowOpacity:0.5f];
-                             [[self.menuTableView layer] setShadowPath:[UIBezierPath bezierPathWithRect:self.menuTableView.bounds].CGPath];
-                             [self.menuButton setImage:[UIImage imageNamed:@"arrow_up.png"] forState:UIControlStateNormal];
-                         }];
-    } else {
-        
-        [UIView animateWithDuration:0.2f
-                         animations:^{
-                             [self.menuTableView setAlpha:0.0f];
-                             [self.menuButton setImage:[UIImage imageNamed:@"arrow_down.png"] forState:UIControlStateNormal];
-                         }];
-        
-        [self.menuTableView setHidden:YES];
-    }
+        [[self.menuTableView layer] setMasksToBounds:NO];
+        [[self.menuTableView layer] setShadowOffset:CGSizeMake(3.0f, 3.0f)];
+        [[self.menuTableView layer] setShadowRadius:3.0f];
+        [[self.menuTableView layer] setShadowOpacity:0.5f];
+        [[self.menuTableView layer] setShadowPath:[UIBezierPath bezierPathWithRect:self.menuTableView.bounds].CGPath];
+        [self.menuButton setImage:[UIImage imageNamed:@"arrow_up.png"] forState:UIControlStateNormal];
+} else {
+    
+    [self.menuTableView setHidden:YES];
+    [self.menuButton setImage:[UIImage imageNamed:@"arrow_down.png"] forState:UIControlStateNormal];
+}
 }
 
 @end
