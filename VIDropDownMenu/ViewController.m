@@ -104,7 +104,6 @@
     [self.view endEditing:YES];
     
     if (self.menuTableView.hidden) {
-        
         CGFloat xCoord = self.menuTextField.frame.origin.x;
         CGFloat yCoord = self.menuTextField.frame.origin.y + self.menuTextField.frame.size.height;
         CGFloat width = self.menuTextField.frame.size.width;
@@ -123,11 +122,10 @@
         [[self.menuTableView layer] setShadowOpacity:0.5f];
         [[self.menuTableView layer] setShadowPath:[UIBezierPath bezierPathWithRect:self.menuTableView.bounds].CGPath];
         [self.menuButton setImage:[UIImage imageNamed:@"arrow_up.png"] forState:UIControlStateNormal];
-} else {
-    
-    [self.menuTableView setHidden:YES];
-    [self.menuButton setImage:[UIImage imageNamed:@"arrow_down.png"] forState:UIControlStateNormal];
-}
+    } else {
+        [self.menuTableView setHidden:YES];
+        [self.menuButton setImage:[UIImage imageNamed:@"arrow_down.png"] forState:UIControlStateNormal];
+    }
 }
 
 @end
