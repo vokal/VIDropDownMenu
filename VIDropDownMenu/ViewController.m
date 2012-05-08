@@ -13,6 +13,7 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *menuTextField;
 @property (weak, nonatomic) IBOutlet UITableView *menuTableView;
+@property (weak, nonatomic) IBOutlet UIButton *menuButton;
 @property (strong, nonatomic) NSArray *menuItemsArray;
 
 - (IBAction)menuButtonTapped:(id)sender;
@@ -23,6 +24,7 @@
 
 @synthesize menuTextField;
 @synthesize menuTableView;
+@synthesize menuButton;
 @synthesize menuItemsArray;
 
 - (void)viewDidLoad
@@ -34,10 +36,13 @@
     [self.menuTableView setHidden:YES];
     [self.menuTableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
     [self.menuTableView setBounces:NO];
+    [self.menuTableView setRowHeight:self.menuTextField.frame.size.height];
     
     [self.menuTextField setDelegate:self];
     
     self.menuItemsArray = [[NSArray alloc] initWithObjects:@"Item #1", @"Item #2", @"Item #3", @"Item #4", @"Item #5", nil];
+    
+    [self.menuButton setImage:[UIImage imageNamed:@"arrow_down.png"] forState:UIControlStateNormal];
 }
 
 - (void)viewDidUnload
@@ -69,6 +74,7 @@
     UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil];
     
 	[[cell textLabel] setText:[self.menuItemsArray objectAtIndex:indexPath.row]];
+    [[cell textLabel] setFont:[self.menuTextField font]];
     
     return cell;	
 }
@@ -97,10 +103,10 @@
 {
     if (self.menuTableView.hidden) {
         
-        CGFloat xCoord = (self.menuTextField.frame.origin.x + 5.0f);
-        CGFloat yCoord = (self.menuTextField.frame.origin.y + self.menuTextField.frame.size.height - 1.0f);
-        CGFloat width = (self.menuTextField.frame.size.width - 10.0f);
-        CGFloat height = (float)(44.0f * [self.menuItemsArray count] + 0.0f);
+        CGFloat xCoord = self.menuTextField.frame.origin.x;
+        CGFloat yCoord = self.menuTextField.frame.origin.y + self.menuTextField.frame.size.height;
+        CGFloat width = self.menuTextField.frame.size.width;
+        CGFloat height = (float)(self.menuTextField.frame.size.height * [self.menuItemsArray count]);
         
         CGFloat heightAllowed = (self.view.frame.size.height - self.menuTableView.frame.origin.y);
         if (height > heightAllowed) {
@@ -119,12 +125,14 @@
                              [[self.menuTableView layer] setShadowRadius:3.0f];
                              [[self.menuTableView layer] setShadowOpacity:0.5f];
                              [[self.menuTableView layer] setShadowPath:[UIBezierPath bezierPathWithRect:self.menuTableView.bounds].CGPath];
+                             [self.menuButton setImage:[UIImage imageNamed:@"arrow_up.png"] forState:UIControlStateNormal];
                          }];
     } else {
         
         [UIView animateWithDuration:0.2f
                          animations:^{
                              [self.menuTableView setAlpha:0.0f];
+                             [self.menuButton setImage:[UIImage imageNamed:@"arrow_down.png"] forState:UIControlStateNormal];
                          }];
         
         [self.menuTableView setHidden:YES];

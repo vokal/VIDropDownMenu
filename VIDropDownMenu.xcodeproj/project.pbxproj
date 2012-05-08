@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C93F526415599DD9008F0960 /* screenshot3.png in Resources */ = {isa = PBXBuildFile; fileRef = C93F526115599DD9008F0960 /* screenshot3.png */; };
+		C93F526615599DD9008F0960 /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = C93F526315599DD9008F0960 /* screenshot1.png */; };
+		C93F526815599F52008F0960 /* arrow_down.png in Resources */ = {isa = PBXBuildFile; fileRef = C93F526715599F52008F0960 /* arrow_down.png */; };
+		C93F526C1559A2DF008F0960 /* screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = C93F526B1559A2DF008F0960 /* screenshot2.png */; };
+		C93F526E1559A436008F0960 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C93F526D1559A436008F0960 /* README.md */; };
 		C9E920E81552D41900A6EC5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E920E71552D41900A6EC5A /* UIKit.framework */; };
 		C9E920EA1552D41900A6EC5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E920E91552D41900A6EC5A /* Foundation.framework */; };
 		C9E920EC1552D41900A6EC5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E920EB1552D41900A6EC5A /* CoreGraphics.framework */; };
@@ -20,8 +25,7 @@
 		C9E921081552D41A00A6EC5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E920E91552D41900A6EC5A /* Foundation.framework */; };
 		C9E921101552D41A00A6EC5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9E9210E1552D41A00A6EC5A /* InfoPlist.strings */; };
 		C9E921131552D41A00A6EC5A /* VIDropDownMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E921121552D41A00A6EC5A /* VIDropDownMenuTests.m */; };
-		C9E9211D1552D5A400A6EC5A /* arrow_down.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E9211C1552D5A400A6EC5A /* arrow_down.png */; };
-		C9E921201552EE3500A6EC5A /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E9211F1552EE3400A6EC5A /* example.png */; };
+		C9E9211D1552D5A400A6EC5A /* arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E9211C1552D5A400A6EC5A /* arrow_up.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C93F526115599DD9008F0960 /* screenshot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot3.png; sourceTree = "<group>"; };
+		C93F526315599DD9008F0960 /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
+		C93F526715599F52008F0960 /* arrow_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_down.png; sourceTree = "<group>"; };
+		C93F526B1559A2DF008F0960 /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.png; sourceTree = "<group>"; };
+		C93F526D1559A436008F0960 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		C9E920E31552D41900A6EC5A /* VIDropDownMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIDropDownMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E920E71552D41900A6EC5A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C9E920E91552D41900A6EC5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,8 +63,7 @@
 		C9E9210F1552D41A00A6EC5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C9E921111552D41A00A6EC5A /* VIDropDownMenuTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIDropDownMenuTests.h; sourceTree = "<group>"; };
 		C9E921121552D41A00A6EC5A /* VIDropDownMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIDropDownMenuTests.m; sourceTree = "<group>"; };
-		C9E9211C1552D5A400A6EC5A /* arrow_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_down.png; sourceTree = "<group>"; };
-		C9E9211F1552EE3400A6EC5A /* example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example.png; sourceTree = "<group>"; };
+		C9E9211C1552D5A400A6EC5A /* arrow_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_up.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,7 @@
 		C9E920D81552D41900A6EC5A = {
 			isa = PBXGroup;
 			children = (
+				C93F526D1559A436008F0960 /* README.md */,
 				C9E920ED1552D41A00A6EC5A /* VIDropDownMenu */,
 				C9E9210B1552D41A00A6EC5A /* VIDropDownMenuTests */,
 				C9E920E61552D41900A6EC5A /* Frameworks */,
@@ -159,8 +168,11 @@
 		C9E9211E1552D5A800A6EC5A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C9E9211F1552EE3400A6EC5A /* example.png */,
-				C9E9211C1552D5A400A6EC5A /* arrow_down.png */,
+				C93F526315599DD9008F0960 /* screenshot1.png */,
+				C93F526B1559A2DF008F0960 /* screenshot2.png */,
+				C93F526115599DD9008F0960 /* screenshot3.png */,
+				C9E9211C1552D5A400A6EC5A /* arrow_up.png */,
+				C93F526715599F52008F0960 /* arrow_down.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -237,8 +249,12 @@
 			files = (
 				C9E920F21552D41A00A6EC5A /* InfoPlist.strings in Resources */,
 				C9E920FE1552D41A00A6EC5A /* ViewController.xib in Resources */,
-				C9E9211D1552D5A400A6EC5A /* arrow_down.png in Resources */,
-				C9E921201552EE3500A6EC5A /* example.png in Resources */,
+				C9E9211D1552D5A400A6EC5A /* arrow_up.png in Resources */,
+				C93F526415599DD9008F0960 /* screenshot3.png in Resources */,
+				C93F526615599DD9008F0960 /* screenshot1.png in Resources */,
+				C93F526815599F52008F0960 /* arrow_down.png in Resources */,
+				C93F526C1559A2DF008F0960 /* screenshot2.png in Resources */,
+				C93F526E1559A436008F0960 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +461,7 @@
 				C9E921181552D41A00A6EC5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9E921191552D41A00A6EC5A /* Build configuration list for PBXNativeTarget "VIDropDownMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +470,7 @@
 				C9E9211B1552D41A00A6EC5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

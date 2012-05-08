@@ -14,4 +14,6 @@ See included example project.
 
 ## Screenshot
 
-![Screenshot](https://github.com/bracken-dev/VIDropDownMenu/raw/master/VIDropDownMenu/example.png) 	
+![Screenshot](https://github.com/bracken-dev/VIDropDownMenu/raw/master/VIDropDownMenu/screenshot1.png)
+![Screenshot](https://github.com/bracken-dev/VIDropDownMenu/raw/master/VIDropDownMenu/screenshot2.png) 	
+![Screenshot](https://github.com/bracken-dev/VIDropDownMenu/raw/master/VIDropDownMenu/screenshot3.png) 	 	
