@@ -101,6 +101,8 @@
 
 - (void)toggleMenuState
 {
+    [self.view endEditing:YES];
+    
     if (self.menuTableView.hidden) {
         
         CGFloat xCoord = self.menuTextField.frame.origin.x;
