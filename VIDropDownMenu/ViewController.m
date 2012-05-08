@@ -84,7 +84,7 @@
     [self.menuTableView deselectRowAtIndexPath:indexPath animated:NO];
     
     NSString *selectedString = [self.menuItemsArray objectAtIndex:indexPath.row];
-    [self.menuTextField setText:selectedString];
+    [self.menuTextField setText:[NSString stringWithFormat:@" %@", selectedString]];
     
     [self toggleMenuState];
 }
