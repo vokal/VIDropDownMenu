@@ -12,7 +12,7 @@ See included example project.
 - [Twitter](https://twitter.com/brackendev)
 - [Vokal Interactive](http://vokalinteractive.com/)
 
-## Screenshot
+## Screenshots
 
 ![Screenshot](https://github.com/bracken-dev/VIDropDownMenu/raw/master/VIDropDownMenu/screenshot1.png)
 ![Screenshot](https://github.com/bracken-dev/VIDropDownMenu/raw/master/VIDropDownMenu/screenshot2.png) 	
